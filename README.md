@@ -1,3 +1,5 @@
+**Nombre:** Henry Tacuri
+
 **Construcción de los contenedores:**
 1.	Para el proyecto **demoappdocker** con **Maven Build** ejecutamos el comando **clean package docker:build**.
 2.	Construimos la aplicación angular (AppCrudDocker) con el comando **npm install**.
