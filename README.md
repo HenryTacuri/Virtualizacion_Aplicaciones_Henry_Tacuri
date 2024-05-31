@@ -9,6 +9,7 @@ AppCrudDocker/.vscode
 AppCrudDocker/.angular
 
 Con el archivo **.dockerignore** ignoramos ciertos archivos de la aplicación angular para poder bajar su peso.
+
 **Construcción de los contenedores:**
 1.	Para el proyecto **demoappdocker** con **Maven Build** ejecutamos el comando **clean package docker:build**.
 2.	Construimos la aplicación angular (AppCrudDocker) con el comando **npm install**.
