@@ -1,0 +1,16 @@
+ec\edu\ups\p58\pw\util\CORSFilter.class
+ec\edu\ups\p58\pw\demoappdocker\ApplictaionPathActivator.class
+ec\edu\ups\p58\pw\helloworld\business\GestionCarros.class
+ec\edu\ups\p58\pw\config\JaegerConfig.class
+ec\edu\ups\p58\pw\config\JaegerContext.class
+ec\edu\ups\p58\pw\helloworld\LoginApi.class
+ec\edu\ups\p58\pw\helloworld\health\ReadinessCheck.class
+ec\edu\ups\p58\pw\helloworld\JAXActivator.class
+ec\edu\ups\p58\pw\helloworld\ErrorMessage.class
+ec\edu\ups\p58\pw\helloworld\HelloWorld.class
+ec\edu\ups\p58\pw\helloworld\dao\CarroDAO.class
+ec\edu\ups\p58\pw\helloworld\health\LivenessCheck.class
+ec\edu\ups\p58\pw\helloworld\model\Carro.class
+ec\edu\ups\p58\pw\demoappdocker\HolaMundoService.class
+ec\edu\ups\p58\pw\util\LoggerProducer.class
+ec\edu\ups\p58\pw\demoappdocker\Jsf23Activator.class
