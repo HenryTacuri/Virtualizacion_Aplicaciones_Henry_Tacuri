@@ -1,0 +1,54 @@
+<main class="flex-shrink-0">
+  <div class="container">
+      <h3 class="my-3">Actualizar carro</h3>
+
+      <form [formGroup]="myForm" (ngSubmit)="onSubmit()" autocomplete="off" class="row g-3">
+
+          <div class="col-md-4">
+              <label for="codigo" class="form-label">Código:</label>
+              <input type="text" class="form-control" id="codigo" name="codigo" formControlName="codigo">
+          </div>
+
+          <div class="col-md-8">
+              <label for="marca" class="form-label">Marca:</label>
+              <input type="text" class="form-control" id="marca" name="marca" formControlName="marca">
+          </div>
+
+          <div class="col-md-6">
+            <label for="modelo" class="form-label">Modelo:</label>
+            <input type="text" class="form-control" id="modelo" name="modelo" formControlName="modelo">
+          </div>
+
+          <div class="col-md-6">
+              <label for="color" class="form-label">Color:</label>
+              <input type="text" class="form-control" id="color" name="color" formControlName="color">
+          </div>
+
+          <div class="col-md-6">
+              <label for="anio" class="form-label">Año:</label>
+              <input type="number" class="form-control" id="anio" name="anio" formControlName="anio">
+          </div>
+
+          <div class="col-md-6">
+              <label for="cilindraje" class="form-label">Cilindraje:</label>
+              <input type="number" class="form-control" id="cilindraje" name="cilindraje" formControlName="cilindraje">
+          </div>
+
+          <div class="col-md-6">
+            <label for="precio" class="form-label">Precio:</label>
+            <input type="number" class="form-control" id="precio" name="precio" formControlName="precio">
+          </div>
+
+          <div class="col-12">
+              <a [routerLink]="['/']" class="btn btn-secondary m-2">Regresar</a>
+              <button type="submit" class="btn btn-primary">Actualizar</button>
+          </div>
+      </form>
+  </div>
+</main>
+
+
+<div *ngIf="modalSwitch">
+  <app-modal [mensaje]= mensaje></app-modal>
+</div>
+

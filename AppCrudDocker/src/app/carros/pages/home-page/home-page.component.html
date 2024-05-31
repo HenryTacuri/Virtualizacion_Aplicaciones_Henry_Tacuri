@@ -1,0 +1,18 @@
+<main class="flex-shrink-0">
+  <div class="container">
+      <h3 class="my-3" id="titulo">Carros</h3>
+
+      <div class="col-md-6">
+        <label for="buscar" class="form-label">Buscar por código</label>
+        <input
+          type="number"
+          class="form-control mb-2"
+          id="buscar" (keyup.enter)="buscar(this.inputBuscar.value)"
+          #inputBuscar>
+      </div>
+
+      <carros-table-carros [carros]="this.carros"></carros-table-carros>
+
+      <a [routerLink]="['/crud/new']" class="btn btn-success">Registrar</a>
+  </div>
+</main>
